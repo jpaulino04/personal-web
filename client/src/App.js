@@ -15,8 +15,8 @@ class App extends Component {
         <Header />
         <div className="container-fluid no-gutters p-0">
           <Switch>
-            <Route exact path="/" component={Landing} />
-            <Route exact path="/career" component={Body} />           
+            {/* <Route exact path="/" component={Landing} /> */}
+            <Route exact path="/" component={Body} />           
           </Switch>
  
         </div>

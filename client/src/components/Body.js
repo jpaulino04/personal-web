@@ -8,7 +8,7 @@ class Body extends Component {
   render() {
     return (     
        <div className="container">    
-         <Profile />
+        <Profile />
         <Skills />
         <Experience />
         <Projects/>

@@ -15,10 +15,9 @@ function Profile() {
       <div className="col-sm-6">
         <div className="card card-body">
           <p className="text-muted text-center">
-            I am a passionate, and highly motivated Web developer. My ample
-            experience in Systems Administration allow me to look at web
-            development from different perspective, and to build very secured,
-            and highly available and scalable websites.
+            I am a passionate, and highly motivated Jr. DevOps Engineer. I Work with
+            system adminstrators, web developers and other engineers, designing, 
+            maintaining and troubleshooting secured and highly available web applications. 
           </p>
         </div>
       </div>
