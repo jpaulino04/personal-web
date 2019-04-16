@@ -49,7 +49,7 @@ function Skills() {
             </li>
             <li className="list-item p-3 d-inline">
               {" "}
-              <i className="fas fa-check" /> JSON{" "}
+              <i className="fas fa-check" /> YML{" "}
             </li>
           </ul>
           <ul className="list-group d-block my-3">
@@ -59,7 +59,7 @@ function Skills() {
             </li>
             <li className="list-item p-3 d-inline">
               {" "}
-              <i className="fas fa-check" /> MongoDB{" "}
+              <i className="fas fa-check" /> Containers{" "}
             </li>
             <li className="list-item p-3 d-inline">
               {" "}
@@ -73,7 +73,7 @@ function Skills() {
             </li>
             <li className="list-item p-3 d-inline">
               {" "}
-              <i className="fas fa-check" /> Bitbucket{" "}
+              <i className="fas fa-check" /> MongoDB{" "}
             </li>
             <li className="list-item p-3 d-inline">
               {" "}
