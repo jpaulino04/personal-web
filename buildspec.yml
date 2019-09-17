@@ -19,6 +19,7 @@ phases:
   post_build:
     commands:
       - echo syncyning to s3 on `date`
-      - aws s3 sync ./build s3://jp-node-build
+      - aws s3 sync build s3://jp-node-build
+      - aws s3api put-object-acl --bucket jp-node-build --key * --acl public-read
 #artifacts:
 #    files: imagedefinitions.json
