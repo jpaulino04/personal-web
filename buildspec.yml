@@ -20,7 +20,5 @@ phases:
     commands:
       - echo syncyning to s3 on `date`
       - aws s3 sync build s3://jp-node-build
-      # Fix this command:
-      - aws s3api put-object-acl --bucket jp-node-build --acl public-read
 #artifacts:
 #    files: imagedefinitions.json
