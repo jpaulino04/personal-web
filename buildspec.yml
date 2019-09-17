@@ -11,7 +11,7 @@ phases:
   pre_build:
     commands:
       - echo Installing node dependencies...
-      - npm install       
+      - cd client && npm install       
   build:
     commands:
       - echo Building static files
