@@ -1,17 +1,24 @@
 version: 0.2
-
 phases:
-  install: 
+  install:
+    runtime-versions:
+      nodejs: 10
     commands:
+      - echo updating npm and awscli...
       - npm i npm@latest -g
       - pip install --upgrade pip
       - pip install --upgrade awscli
   pre_build:
     commands:
-      - cd client && npm install
+      - echo Installing node dependencies...
+      - npm install       
   build:
     commands:
+      - echo Building static files
       - npm run build
   post_build:
     commands:
-      - aws s3 sync build s3://jp-node-build
+      - echo syncyning to s3 on `date`
+      - aws s3 sync ./build s3://jp-node-build
+#artifacts:
+#    files: imagedefinitions.json
