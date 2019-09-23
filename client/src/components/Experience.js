@@ -51,7 +51,7 @@ class Experience extends Component {
                   <p className="text-white lead text-info">(2015 - Present)</p>
                   <ul className="list-group">
                     <li className="list-group-item">IT/PC support</li>
-                    <li className="list-group-item">Applications Deployments</li>
+                    <li className="list-group-item">Application Deployment</li>
                     <li className="list-group-item">
                       AWS Cloud Administration
                     </li>
