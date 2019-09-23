@@ -19,6 +19,6 @@ phases:
   post_build:
     commands:
       - echo syncyning to s3 on `date`
-      - aws s3 sync build s3://jp-node-build
+      - aws s3 sync build s3://jpaulino.com/
 #artifacts:
 #    files: imagedefinitions.json
